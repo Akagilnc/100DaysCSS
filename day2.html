@@ -1,10 +1,14 @@
 <link rel="stylesheet" href="day2.css">
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <script>
+    $(function () {
+
+
     $('.menu-icon').bind('click', function() {
         $(this).toggleClass('active');
         $(this).find('div').removeClass('no-animation');
     });
+    })
 </script>
 <div class="frame">
     <div class="center">
